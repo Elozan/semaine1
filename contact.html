@@ -1,0 +1,39 @@
+<!doctype html>
+<html> 
+
+<!-- Menu de nativagtion--> 
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scable=no" />
+	<title> Responsive Menu</title>
+	<link rel="stylesheet" type="text/css" href="style5.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+</head>
+<body>
+	<nav>
+		<div class="toggle">
+			<i class="fa fa-bars menu" aria-hidden="true"></i>
+		</div>
+		<ul>
+			<li><a href="index8.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$('.menu').click(function(){
+			$('ul').toggleClass ('active');
+		})
+		})
+	</script>
+</body>	
+
+
+
+<!-- Pied de page -->
+<footer>
+	<p> Copyright &copy; Gravenilvec - 2020 - 
+</footer>
